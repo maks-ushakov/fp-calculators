@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	color: #000;
+	min-width: 1020px;
+	background: #eee;
+
+	font: px "lucida sans", unicode, "lucida grande", sans-serif;
+}
+/* General reset */
+h1, h2, h3, h4,h5, h6, p { margin: 0;}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+img {
+	border-style: none;
+	display: block;
+}
+input, select, textarea {
+	vertical-align: middle;
+	font: 100% arial, helvetica, sans-serif;
+}
+a {
+	color: #f00;
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+/* General settings */
+#wrapper {
+	min-width: 320px;
+	max-width: 960px;
+	min-height: 100vh;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 2px 4px 10px 0 rgba(0,0,0, .8);
+}
+
+#header {
+	padding: 20px;
+	text-align: center;
+	background: #fdd;
+}
